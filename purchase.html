@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Покупка</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="container shell">
+      <main class="main">
+        <section class="hero">
+          <h2>Покупка</h2>
+          <p>Выберите подписку. Оплата доступна через FunPay или переводом по СБП.</p>
+        </section>
+
+        <section class="two-grid">
+          <article class="card">
+            <h3>30 дней</h3>
+            <p style="font-size: 28px; margin-top: 8px; color: #fff;">1700 рублей</p>
+            <p>Подписка на 30 дней для 1 ПК.</p>
+            <button class="buy-button" type="button" data-plan="30 дней">Купить</button>
+          </article>
+
+          <article class="card">
+            <h3>Вся лига</h3>
+            <p style="font-size: 28px; margin-top: 8px; color: #fff;">5000 рублей</p>
+            <p>Полный доступ на всю лигу для 3 ПК, включая возможную доработку персонального функционала.</p>
+            <button class="buy-button" type="button" data-plan="Вся лига">Купить</button>
+          </article>
+        </section>
+
+      </main>
+
+      <aside class="sidebar">
+        <nav class="nav">
+          <a data-page href="index.html">О программе</a>
+          <a data-page href="usage.html">Инструкция по использованию</a>
+          <a data-page href="install.html">Инструкция по установке</a>
+          <a data-page href="game-settings.html">Настройки игры</a>
+          <a data-page href="purchase.html">Покупка</a>
+          <a data-page href="contacts.html">Контакты</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="buyModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="buyModalTitle">
+      <button class="modal-close" type="button" aria-label="Закрыть окно" data-close-modal>×</button>
+      <h3 id="buyModalTitle">2 СПОСОБА ПОКУПКИ</h3>
+      <p id="buyModalPlan">Выберите способ оплаты для покупки.</p>
+      <div class="triple-grid" style="margin-top: 18px;">
+        <a class="card payment-link" href="https://t.me/shadowsyncc" target="_blank" rel="noopener noreferrer">
+          <h3>СПБ, Крипта</h3>
+          <p>Переход в Telegram для оплаты.</p>
+        </a>
+        <a class="card payment-link" href="https://funpay.com/lots/offer?id=44137116" target="_blank" rel="noopener noreferrer">
+          <h3>FunPay</h3>
+          <p>Переход на FunPay для покупки.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
