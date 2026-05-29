@@ -117,6 +117,22 @@ body {
   border-color: rgba(56, 189, 248, 0.45);
 }
 
+.nav a.nav-red {
+  color: #ff6b6b;
+  border-color: rgba(255, 107, 107, 0.25);
+}
+
+.nav a.nav-red:hover {
+  background: rgba(255, 107, 107, 0.12);
+  border-color: rgba(255, 107, 107, 0.55);
+}
+
+.nav a.nav-red.active {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.25), rgba(255, 107, 107, 0.12));
+  border-color: rgba(255, 107, 107, 0.75);
+}
+
 .main {
   flex: 1;
   padding: 0px;
