@@ -36,33 +36,66 @@
         <section class="card" style="margin-top: 18px;">
           <h3>Быстрые комбинации</h3>
           <ul>
-            <li><strong>Shift + 3</strong> - выбор геймпада.</li>
-            <li><strong>Shift + 4</strong> - пауза / возобновление.</li>
-            <li><strong>Shift + 5</strong> - стоп.</li>
-            <li><strong>Shift + 6</strong> - ручное управление.</li>
-            <li><strong>Shift + 9</strong> - обновление конфигурации.</li>
+            <li><strong>Shift + 3</strong> - Выбор геймпада: переключает управление между геймпадами (Геймпад 1 ↔ Геймпад 2) в режиме 1.</li>
+            <li><strong>Shift + 4</strong> - Пауза / Возобновление: приостанавливает выполнение текущего режима. Повторное нажатие возобновляет выполнение.</li>
+            <li><strong>Shift + 5</strong> - Стоп: завершает текущий режим и возвращает в меню выбора режима.</li>
+            <li><strong>Shift + 6</strong> - Ручное управление: прекращает преследование и автоклики, переключает управление в ручной режим (WASD - Геймпад 1, стрелочные клавиши - Геймпад 2).</li>
+            <li><strong>Shift + 9</strong> - Обновление конфигурации: обновляет конфигурацию без необходимости перезапуска бота.</li>
           </ul>
         </section>
 
         <section class="card" style="margin-top: 18px;">
           <h3>Режим 1</h3>
           <img src="https://i.imgur.com/8SQIDi6.png" alt="Режим 1" style="width: 285px;" />
-          <p>Режим имитации нажатий на геймпад.</p>
+          <p><strong>Мод 1</strong> - режим для имитации нажатий на геймпад по стандарту управления.</p>
+          <p>В режиме 1 вы можете настроить управление для имитации нажатий на геймпад по стандарту управления в разделе «Мод 1».</p>
+          <p><strong>Управление движением</strong></p>
+          <ul>
+            <li><strong>WASD</strong> - управление джойстиком Геймпад 1.</li>
+            <li><strong>Стрелочные клавиши</strong> - управление джойстиком Геймпад 2.</li>
+            <li>При выключенном режиме, когда в левом верхнем углу отображается «CHARACTER SELECT», управление осуществляется вручную.</li>
+            <li>Если активен режим «1 PLAYER + 1 BOT (1 PC)», управлением занимается бот.</li>
+          </ul>
+          <p><strong>Управление кнопками (настраиваемые)</strong></p>
+          <p><strong>Геймпад 1:</strong> LB - Левая кнопка мыши, A - L, X - Q, Y - E, B - R, RB - Правая кнопка мыши, LT - Ctrl, LEFT - 1, UP - Пробел, RIGHT - 2, DOWN - P, RT - Alt</p>
           <img src="https://i.imgur.com/VfLHKUb.png" alt="Геймпад 1" style="width: 285px;" />
           <img src="https://i.imgur.com/QczKNkq.png" alt="Геймпад 2" style="width: 285px;" />
+          <p><strong>Настройка автоматического нажатия кнопок</strong></p>
+          <p>В разделе «Мод 1» вы можете включить или выключить автоматическое нажатие кнопок для второго геймпада (бота), настроить интервал и выбрать кнопки.</p>
           <img src="https://i.imgur.com/zbhz10R.png" alt="Автонажатие" style="width: 285px;" />
         </section>
 
         <section class="card" style="margin-top: 18px;">
           <h3>Режим 2</h3>
           <img src="https://i.imgur.com/xK6E7aa.png" alt="Режим 2" style="width: 285px;" />
-          <p>Автоматический режим для одного или двух ботов.</p>
+          <p><strong>Мод 2</strong> - автоматический режим, где два бота или один бот преследуют керри группы.</p>
+          <p>Стабильно работает только один бот. Для использования двух ботов необходимо зайти на карту и исключить лишних ботов из группы.</p>
+          <p><strong>Особенности режима 2</strong></p>
+          <ul>
+            <li>Синий крестик - ручное управление (WASD).</li>
+            <li>Красный крестик - автоматическое управление.</li>
+            <li>Shift + 3 - переключение между геймпадами (только в режиме 2).</li>
+          </ul>
+          <p><strong>Управление движением</strong></p>
+          <p>Если режим не активен и в левом верхнем углу отображается «CHARACTER SELECT», управление следующее:</p>
+          <ul>
+            <li><strong>Геймпад 1 (WASD)</strong>: A - 1, X - 2, Y - 3, B - 4</li>
+            <li><strong>Геймпад 2 (стрелочные клавиши)</strong>: A - 5, X - 6, Y - 7, B - 8</li>
+          </ul>
           <img src="https://i.imgur.com/RzM2P7y.png" alt="Настройка режима 2" style="width: 285px;" />
         </section>
 
         <section class="card" style="margin-top: 18px;">
           <h3>Режим 3</h3>
-          <p>Override / Character Select.</p>
+          <p><strong>CHARACTER SELECT / Override</strong> - фиксированное управление WASD + стрелочные клавиши в любом режиме.</p>
+          <p>Shift + 6 активирует режим 3 (Override) для режимов 1 и 2.</p>
+          <p><strong>Управление</strong></p>
+          <ul>
+            <li><strong>Геймпад 1 (WASD)</strong>: A - 1, X - 2, Y - 3, B - 4</li>
+            <li><strong>Геймпад 2 (стрелочные клавиши)</strong>: A - 5, X - 6, Y - 7, B - 8</li>
+          </ul>
+          <p><strong>Особенность режима 1</strong></p>
+          <p>Когда пользователь переходит в режим «CHARACTER SELECT», управление становится нестандартным и соответствует настройкам «MAIN CONTROL».</p>
           <img src="https://i.imgur.com/vZ5kwvg.png" alt="Character Select" style="width: 285px;" />
         </section>
       </main>
